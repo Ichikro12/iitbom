@@ -7,7 +7,7 @@ import google.generativeai as genai  # For Google Generative AI
 import streamlit as st
 
 # Load the trained model (make sure to train and save your model first!)
-model = joblib.load('C:/Users/ckp23/Videos/iitbombay-main/iitbombay-main/pythonProject1/pages/sign_language_model.pkl')
+model = joblib.load('pages/sign_language_model.pkl')
 
 mp_hands = mp.solutions.hands
 hands = mp_hands.Hands(static_image_mode=False,
