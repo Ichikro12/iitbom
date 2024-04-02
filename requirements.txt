@@ -94,3 +94,6 @@ streamlit-browser-session-storage==0.0.6
 streamlit-component-socket-client==0.1.0
 streamlit-cookies-manager==0.2.0
 streamlit-modal==0.1.2
+streamlit
+opencv-python[gtk]
+opencv-python-headless
