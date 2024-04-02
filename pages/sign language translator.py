@@ -4,7 +4,7 @@ import subprocess
 def run_sign_language_translator():
     """Function to call the sign_language_translator.py script."""
     # Replace 'sign_language_translator.py' with the actual filename
-    command = ['python', 'C:/Users/ckp23\Videos/iitbombay-main/iitbombay-main/pythonProject1/pages/slang.py']
+    command = ['python', 'pages/slang.py']
     subprocess.run(command)
 
 # Title and description
